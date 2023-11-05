@@ -33,7 +33,11 @@ Utilizing initial tools like 'exiftool' and 'strings,' we uncovered a passphrase
 
 ![image](https://github.com/KumarShivam1908/LEVEL_8/assets/119051305/eb4d0295-72c5-4496-a80f-c8df1a381e56)
 
-Upon accessing the Drive link, we encountered a hexhue. To decode this information, we utilized the online tool found at https://www.dcode.fr/hexahue-cipher. After deciphering, the result revealed the password 'ERD3NC0RP,' which granted us access as the root user, further advancing our investigation.
+Upon accessing the Drive link, we encountered a hexhue. To decode this information, we utilized the online tool found at https://www.dcode.fr/hexahue-cipher.
+
+![image](https://github.com/KumarShivam1908/LEVEL_8/assets/119051305/8af5160e-be15-4a35-91e4-fa61a0538f15)
+
+After deciphering, the result revealed the password 'ERD3NC0RP,' which granted us access as the root user, further advancing our investigation.
 
 After obtaining the root password and successfully logging in, we navigated to the 'zodiac' user's home directory. Inside this directory, we encountered a 'Final_Flag' folder. Within the 'Final_Flag' folder were six text files. The final text file, upon inspection, revealed the ultimate flag: 'zyp{Congrats_ERD3NC0RP}'—marking the successful conclusion of our exploration and the attainment of the flag.
 
